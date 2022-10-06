@@ -1,0 +1,56 @@
+site_name: 操作系统2022秋 | 哈工大（深圳）
+copyright: 'Copyright &copy; 2022 - 2023 哈尔滨工业大学（深圳）'
+repo_name: 'HITSZ-OS-Course'
+
+theme:
+    language: 'zh'
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+    features:
+        - navigation.tabs
+    icon:
+      logo: fontawesome/brands/linux
+      repo: fontawesome/brands/git-alt        
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - admonition
+  - mdx_math:
+      enable_dollar_delimiter: True
+    
+extra_javascript:
+    - 'js/baidu-tongji.js'
+
+nav:
+  - 实验概述: 
+  - 常见问题: 
+  - Lab1：XV6与Unix实用程序: 
+  - Lab2：系统调用: 
