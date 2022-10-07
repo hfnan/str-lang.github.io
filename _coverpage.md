@@ -1,7 +1,7 @@
 <div>
     <div class="middle-block">
         <div id="logo"> 
-            <img src = "str-logo-ssz.png" alt = "str-logo">
+            <img src = "str-logo-sqsz.png" alt = "str-logo">
         </div>
         <div id="text">STR</div>
     </div>
