@@ -1,11 +1,9 @@
 <div>
     <div class="middle-block">
-        <div id="logo">
-            <div id="box-a">
-                <div id="box-b"></div>
-            </div>
+        <div id="logo"> 
+            <img src = "str-logo-ssz.png" alt = "str-logo">
         </div>
-        <div id="text">Kula</div>
+        <div id="text">STR</div>
     </div>
     <style>
         .middle-block {
@@ -17,12 +15,13 @@
             width: min(160px, 16vw);
             height: min(160px, 16vw);
             float: left;
+            background-image: linear-gradient(135deg, #fba, #fff);
             box-shadow: 4px 4px 28px #ccc;
         }
         #box-a {
             width: min(160px, 16vw);
             height: min(160px, 16vw);
-            background-image: linear-gradient(135deg, #0cf, #09f);
+            background-image: linear-gradient(135deg, #0aa, #bfa);
         }
         #box-b {
             width: 48.5%;
@@ -39,7 +38,7 @@
             font-size: min(140px, 14vw);
             line-height: min(200px, 20vw);
             vertical-align: bottom;
-            background-image: linear-gradient(90deg, #09f, #0cf);
+            background-image: linear-gradient(90deg, #e11, #baf);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
