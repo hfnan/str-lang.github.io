@@ -1,6 +1,3 @@
----
-sort: 1
----
 
 # 字符串基本法
 
@@ -49,9 +46,9 @@ var hello = world
 可以一次声明多个变量，也可以对多个变量同时初始化
 
     // 如下的语句都正确
-    1 var Alice, Bob
-    2 var one, two = 1, 2
-    3 var a, b, c = error
+    var Alice, Bob
+    var one, two = 1, 2
+    var a, b, c = error
 
 可以看到，在第二行，等号右边的字符串被逗号分成了两部分，事实上，等号右边就不再是一整个字符串常量了，而是一个 **字符串列表**。
 
