@@ -1,7 +1,7 @@
 <div>
     <div class="middle-block">
         <div id="logo"> 
-            <img src = "str-logo-sqsz.png" alt = "str-logo">
+            <img id = "box-a" src = "str-logo-sqsz.png" alt = "str-logo">
         </div>
         <div id="text">STR</div>
     </div>
@@ -21,7 +21,7 @@
         #box-a {
             width: min(160px, 16vw);
             height: min(160px, 16vw);
-            background-image: linear-gradient(135deg, #0aa, #bfa);
+            background-image: linear-gradient(135deg, #fba, #ffa);
         }
         #box-b {
             width: 48.5%;
