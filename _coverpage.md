@@ -1,7 +1,7 @@
 <div>
     <div class="middle-block">
         <div id="logo"> 
-            <img id = "box-a" src = "str-logo-sqsz.png" alt = "str-logo">
+            <img id = "box-a" src = "str-logo-or.jpg" alt = "str-logo">
         </div>
         <div id="text">STR</div>
     </div>
@@ -15,13 +15,12 @@
             width: min(160px, 16vw);
             height: min(160px, 16vw);
             float: left;
-            background-image: linear-gradient(135deg, #fba, #fff);
-            box-shadow: 4px 4px 28px #ccc;
+            /* box-shadow: 4px 4px 28px #ccc; */
         }
         #box-a {
             width: min(160px, 16vw);
             height: min(160px, 16vw);
-            background-image: linear-gradient(135deg, #fba, #ffa);
+            /* background-image: linear-gradient(135deg, #fba, #fff); */
         }
         #box-b {
             width: 48.5%;
@@ -38,19 +37,19 @@
             font-size: min(140px, 14vw);
             line-height: min(200px, 20vw);
             vertical-align: bottom;
-            background-image: linear-gradient(90deg, #e11, #baf);
+            background-image: linear-gradient(90deg, #e11, #76f);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
     </style>
 </div>
 
-> **轻量、高扩展** 的 .NET 脚本语言
+> **轻量、高扩展** 的 `?`
 
-+ 始于 2021 年
++ 始于 `?` 年
 + 开源、长期维护
-+ 无缝对接 C#
-+ 支持函数式、面向对象等高级特性
++ 无缝对接 `?`
++ 支持函数式、面向对象等高级特性(真的假的？)
 
 [**Github仓库**](https://github.com/kula-lang/kula)
 [*VSCode插件*](https://github.com/kula-lang/Kula-Diana)
