@@ -13,5 +13,6 @@
 var color = blue
 var number = 2.5
 var expression = number * 5
-hello, world
+var salary
+salary = 30 * (number + 3)
 ```
